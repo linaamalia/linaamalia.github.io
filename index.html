@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Toko Bunga</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <style type="text/css">
+            #main-navbar {
+                transition: 0.3s;
+            }
+        </style>
+    </head>
+
+    <style>
+        .font-color{
+            color: #6d5442;
+        }
+        .font-contact{
+            color: rgb(192, 146, 115);
+        }
+        .bg-product{
+              weight: 100px;
+                background :   #ffc299;
+        }
+        .flowercard{
+            box-shadow: 0 0 30px rgba(146, 144, 144, 0.452);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .bg-footer{
+                background :   #6d5442;
+        }
+        .main-content h1 {
+	        margin-top: 0;
+        }
+    </style>
+
+    <body>
+        <nav id="main-navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+            <div class="container-fluid px-4">
+                <a class="navbar-brand" href="#">TOKO BUNGA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link font-color" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-color" href="#Product">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-color" href="#Review">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-color" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- carousel start -->
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade vh-100">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner h-100">
+                <div class="carousel-item h-100 active">
+                    <img src="image/flower1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item h-100">
+                    <img src="image/flower2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item h-100">
+                    <img src="image/flower3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- carousel end -->
+        <!-- main content start -->
+        <!-- About start -->
+        <div id="About" class="container-fluid">
+
+            <div class="row">
+                <div class="col-12 text-center"></div>
+                <center><h2 class="display-5 pt-5 font-color" data-aos="fade-up">About</h2></center>
+                <div class="col-md-7 main-content pt-4">
+                    <p>Toko bunga kami adalah toko bunga yang telah berdiri selama lebih dari 10 tahun di kota Denpasar. Kami menyediakan berbagai
+                    macam jenis bunga yang segar dan indah, mulai dari bunga potong, bunga meja, bunga hias, hingga bunga pot. Selain itu,
+                    kami juga menyediakan berbagai macam aksesoris untuk bunga, seperti pot bunga, vase, dan sebagainya. Kami merangkul
+                    keunikan dari setiap bunga yang kami jual, sehingga Anda bisa dengan mudah menemukan bunga yang sesuai dengan keinginan
+                    dan kebutuhan Anda. Kami juga selalu berusaha memberikan pelayanan terbaik kepada pelanggan kami, sehingga Anda merasa
+                    nyaman dan puas saat berbelanja di toko bunga kami. Jadi, jika Anda sedang mencari bunga yang indah dan segar, jangan
+                    ragu untuk mengunjungi toko bunga kami.</p>
+                </div>
+                <div class="col-md-5">
+                    <video class="img-thumbnail" src="image/about-vid.mp4" loop autoplay muted></video>
+              </div>
+                </div>
+                </div>
+            </div>
+        <!-- About end -->
+        <!-- photo start -->
+        <div class="row">
+            <div id="Product" class="bg-product">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="display-5 pt-5 font-color">Product</h1>
+                    </div>
+                </div>
+                
+                <div class="row g-3">
+                <div class="col-4" data-aos="fade-right" data-aos-anchor-placement="top-center">
+                    <div class="px-5 pt-5">
+                        <img src="image/pot bunga 1.jpg" class="img-fluid flowercard" alt="">
+                    </div>
+                    <div class="text-center pt-3">
+                        <h4>Pot Lidah Mertua</h4>
+                        <div class="price">Rp 130.000</div>
+                    </div>
+                </div>
+                <div class="col-4" data-aos="fade-right" data-aos-anchor-placement="top-center">
+                    <div class="px-5 pt-5">
+                        <img src="image/pot bunga 2.jpg" class="img-fluid flowercard" alt="">
+                    </div>
+                    <div class="text-center pt-3">
+                        <h4>Pot Lucky Bamboo</h4>
+                        <div class="price">Rp 250.000</span></div>
+                    </div>
+                </div>
+                <div class="col-4" data-aos="fade-right" data-aos-anchor-placement="top-center">
+                    <div class="px-5 pt-5">
+                        <img src="image/pot bunga 3.jpg" class="img-fluid flowercard" alt="">
+                    </div>
+                    <div class="text-center pt-3">
+                        <h4>Pot Echeveria</h4>
+                        <div class="price">Rp 100.000</span></div>
+                    </div>
+                </div>
+                <div class="col-4" data-aos="fade-right" data-aos-anchor-placement="top-center">
+                    <div class="px-5 pt-5">
+                        <img src="image/pot bunga 4.jpg" class="img-fluid flowercard" alt="">
+                    </div>
+                    <div class="text-center pt-3">
+                        <h4>Pot Tulip Pink</h4>
+                        <div class="price">Rp 300.000</div>
+                    </div>
+                </div>
+
+                <div class="col-4" data-aos="fade-right" data-aos-anchor-placement="top-center">
+                    <div class="px-5 pt-5">
+                        <img src="image/pot bunga 5.jpg" class="img-fluid flowercard" alt="">
+                    </div>
+                    <div class="text-center pt-3">
+                        <h4>Pot Tulip Putih</h4>
+                        <div class="price">Rp 350.000</div>
+                    </div>
+                </div>
+
+                <div class="col-4" data-aos="fade-right" data-aos-anchor-placement="top-center">
+                    <div class="px-5 pt-5">
+                        <img src="image/pot bunga 6.jpg" class="img-fluid flowercard" alt="">
+                    </div>
+                    <div class="text-center pt-3">
+                        <h4>Pot Kaktus</h4>
+                        <div class="price">Rp 170.000</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Review start -->
+
+        <div class="row">
+            <div id="Review">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="display-5 pt-5 font-color">Review's</h1>
+                    </div>
+                </div>
+        
+                <div class="row g-4 d-flex justify-content-center">
+                    <div class="col-5" data-aos="fade-left" data-aos-anchor-placement="top-center">
+                        <div class="px-5 pt-5 flowercard">
+                                <img width="20" heigh="20" src="image/star.png">
+                                <img width="20" heigh="20" src="image/star.png">
+                                <img width="20" heigh="20" src="image/star.png">
+                                <img width="20" heigh="20" src="image/star.png">
+                                <img width="20" heigh="20" src="image/star.png">
+                                
+                                <div class="row g-2 g-md-2 pt-4">
+                                    <div class="col-2">
+                                        <img src="image/person1.jpg"
+                                            class="rounded-circle img-fluid shadow-1" alt="woman avatar" width="200" height="200" />
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <p class="text-muted fw-light mb-4">
+                                            "Bunganya bagus bangeeet kakak, jadi toko bunga langganan ini."
+                                        </p>
+                                        <p class="fw-bold lead mb-2"><strong>Flora Mouna</strong></p>                                
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="col-5" data-aos="fade-left" data-aos-anchor-placement="top-center">
+                        <div class="px-5 pt-5 flowercard">
+                            <img width="20" heigh="20" src="image/star.png">
+                            <img width="20" heigh="20" src="image/star.png">
+                            <img width="20" heigh="20" src="image/star.png">
+                            <img width="20" heigh="20" src="image/star.png">
+                            <img width="20" heigh="20" src="image/star.png">
+
+                            <div class="row g-2 g-md-2 pt-4">
+                                <div class="col-2">
+                                    <img src="image/person2.jpg"
+                                        class="rounded-circle img-fluid shadow-1" alt="woman avatar" width="200" height="200" />
+                                </div>
+                                <div class="col-lg-8">
+                                    <p class="text-muted fw-light mb-4">
+                                        "Bunganya segar banget dan bahan potnya juga bagus."
+                                    </p>
+                                    <p class="fw-bold lead mb-2"><strong>Hena Tatum</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-5" data-aos="fade-left" data-aos-anchor-placement="top-center">
+                        <div class="px-5 pt-5 flowercard">
+                            <img width="20" heigh="20" src="image/star.png">
+                            <img width="20" heigh="20" src="image/star.png">
+                            <img width="20" heigh="20" src="image/star.png">
+                            <img width="20" heigh="20" src="image/star.png">
+                            <img width="20" heigh="20" src="image/star.png">
+                    
+                            <div class="row g-2 g-md-2 pt-4">
+                                <div class="col-2">
+                                    <img src="image/person3.jpg" class="rounded-circle img-fluid shadow-1" alt="woman avatar" width="200"
+                                        height="200" />
+                                </div>
+                                <div class="col-lg-8">
+                                    <p class="text-muted fw-light mb-4">
+                                        "Bunganya segar banget dan bahan potnya juga bagus."
+                                    </p>
+                                    <p class="fw-bold lead mb-2"><strong>Hena Tatum</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="col-5" data-aos="fade-left" data-aos-anchor-placement="top-center">
+                            <div class="px-5 pt-5 flowercard">
+                                <img width="20" heigh="20" src="image/star.png">
+                                <img width="20" heigh="20" src="image/star.png">
+                                <img width="20" heigh="20" src="image/star.png">
+                                <img width="20" heigh="20" src="image/star.png">
+                                <img width="20" heigh="20" src="image/star.png">
+                        
+                                <div class="row g-2 g-md-2 pt-4">
+                                    <div class="col-2">
+                                        <img src="image/person4.jpg" class="rounded-circle img-fluid shadow-1" alt="woman avatar" width="200"
+                                            height="200" />
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <p class="text-muted fw-light mb-4">
+                                            "Bunganya segar banget dan bahan potnya juga bagus."
+                                        </p>
+                                        <p class="fw-bold lead mb-2"><strong>Hena Tatum</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- Review end -->
+
+        <!-- photo end -->
+        <!-- contact start -->
+        <div id="Contact" class="container-fluid py-5 mb-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-5 pt-5 font-color">Contact</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <!-- peta di sini -->
+                    <div class="m-4 img-thumbnail">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.1618850697596!2d115.21495527376203!3d-8.676150688328532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240e946a2e823%3A0x12294f3c5f3b9bcc!2sJl.%20Jend.%20Sudirman%20No.7%2C%20Dauh%20Puri%20Klod%2C%20Kec.%20Denpasar%20Bar.%2C%20Kota%20Denpasar%2C%20Bali%2065128!5e0!3m2!1sen!2sid!4v1672648486046!5m2!1sen!2sid"
+                            width="550" height="310" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <!-- peta di sini -->
+                </div>
+                <div class="col-6">
+                    <div class="m-4">
+                        <div class="mb-4 font-">
+                            <h4 class="font-contact">Address</h4>
+                            <p>Jl.Jend.Sudirman No.7,Kota Denpasar,Bali 65128</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-contact">Phone</h4>
+                            <p>081805395739</p>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="font-contact">Email</h4>
+                            <p>tokobunga@gmail.com</p>
+                        </div>
+                         <div class="mb-4">
+                            <h4 class="font-contact">pembayaran</h4>
+                            <img src="image/payment.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- contact end -->
+        <!-- main content end -->
+        <!-- footer start -->
+        <div class="p-2 text-center text-white bg-footer">@copyright 2023 - TokoBungaLina
+        </div>
+        <!-- footer end -->
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script type="text/javascript">
+            AOS.init();
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 460) {
+                    $('#main-navbar').addClass('bg-body-tertiary');
+                } else {
+                    $('#main-navbar').removeClass('bg-body-tertiary');
+                }
+            });
+        </script>
+    </body>
+</html>
